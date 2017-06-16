@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 // Local
-import WelcomePage from '../WelcomePage';
+import DashboardPage from '../dashboard/DashboardPage';
 // Libraries
-// TODO: Fill me in later ;)
+// TODO
 // Styles
-// import './App.css';
+import './App.css';
+
 
 class App extends Component {
   render() {
     return (
-      <WelcomePage />
+      <DashboardPage />
     );
   }
 }
